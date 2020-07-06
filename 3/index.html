@@ -836,12 +836,13 @@ display: flex;flex-direction: column;}.cid-qGja4i6FrE .sidebar a{display: block;
 <br>
             <div class="mbr-section-btn align-center">
                 <form id="my-form">
-                    <input type="search" method="GET" style="width: auto;" placeholder="Enter Hymn Number" name="hymn-number" id="hymn-number" minlength="1" maxlength="3" value="">
+                    <input type="search" method="GET" style="width: auto;" placeholder="Enter Hymn Number" 
+                    name="hymn-number" id="hymn-number" minlength="1" maxlength="3" value="">
                     <input type="submit" id="button" value="SING" onclick="submitHandler()">
                 </form>
             
                 <script type="text/javascript">
-                    function submitHandler(){var num = document.getElementById('hymn-number').value;
+                    function submitHandler(){var num = document.getElementById().value;
                                         var url = 'https://prime-code.github.io/' + num + '/index.html';
                                         window.open(url) ;}
                 </script>
